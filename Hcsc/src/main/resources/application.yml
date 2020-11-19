@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Healcare service corporation
+  datasource:    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/movie
+    username: root
+    password: root
+ 
+ 
+   mvc:    view:      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+server:  port: 9870
+  
+  
